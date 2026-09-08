@@ -1,31 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     position: absolute;
     width: 1px;
-    margin:-1px;
+    margin: -1px;
     overflow: hidden;
 }
 
 /* ------cabecalho------- */
-.home_cabecalho{ 
+.home_cabecalho {
     background-color: #FFF4F4;
     height: 120px;
-    display: flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.home_container{ 
+.home_container {
     /* background-color: aqua; */
-    max-width:1200px ;  /* largura maxima 1200px  */
-    width: 95%; /* largura 95% */
-    margin: 0 auto ;
+    max-width: 1200px;
+    /* largura maxima 1200px  */
+    width: 95%;
+    /* largura 95% */
+    margin: 0 auto;
 }
 
 
@@ -33,68 +35,72 @@ h1{
 
 
 /* --------Banner------- */
-.home_banner{ 
+.home_banner {
     background-color: #FDF8F8;
 }
 
-.box_texto_banner{ 
+.box_texto_banner {
     /* background-color: #A53131; */
     font-family: "Hanken Grotesk", sans-serif;
-    max-width: 520px; ;
+    max-width: 520px;
+    ;
 }
 
-.banner_container{
+.banner_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
+
+
 }
 
-.banner_container img{
+.banner_container img {
     width: 547px;
 }
 
-.linha1{
-    color:#C5A028;
+.linha1 {
+    color: #C5A028;
     font: 16px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
     display: inline-block;
 }
-.linha2{
-  font-family: "Libre Caslon Text", serif;
-  font-size: 48px;
-  margin-bottom: 20px;
-   display: inline-block;
+
+.linha2 {
+    font-family: "Libre Caslon Text", serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
-.linha3{
-    font-size:  20px; 
+
+.linha3 {
+    font-size: 20px;
     font-style: italic;
     color: #AAAAAA;
-    margin-bottom:30px;
-    display: inline-block ;
+    margin-bottom: 30px;
+    display: inline-block;
 }
-.linha4{
+
+.linha4 {
     font-weight: 600;
     font-size: 12px;
     text-transform: uppercase;
     color: #FFFFFF;
-    text-decoration:none;
+    text-decoration: none;
 
-    background-color:#000000 ;
-    padding: 16px   40px;
+    background-color: #000000;
+    padding: 16px 40px;
 }
 
 
 /* -----------PRODTOS------------- */
-.home_produtos{ 
+.home_produtos {
     padding: 100px;
 }
 
 
-.link_produtos a{
+.link_produtos a {
     font-family: "Hanken Grotesk", sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -102,24 +108,28 @@ h1{
     text-decoration: none;
     color: #000000;
 }
-.link_produtos svg{
+
+.link_produtos svg {
     width: 20px;
 }
-.link_produtos div{
+
+.link_produtos div {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;  /* espaço entre */
+    gap: 20px;
+    /* espaço entre */
     margin-bottom: 20px;
 
 }
-.link_produtos hr{
+
+.link_produtos hr {
     max-width: 380px;
     width: 100%;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 
-.home_subtitulo{
+.home_subtitulo {
     font-family: "Libre Caslon Text", serif;
     /* background-color: brown; */
     display: flex;
@@ -129,29 +139,94 @@ h1{
     margin: 100px;
 }
 
-.home_subtitulo h2{
- font-weight:700;
- font-size: 64px;
- background-image: linear-gradient(0deg,#FFFFFF, #E9E9E9);
- background-clip: text;
- -webkit-background-clip: text;
- color: transparent;
- -webkit-text-fill-color: transparent;
+.home_subtitulo h2 {
+    font-weight: 700;
+    font-size: 64px;
+    background-image: linear-gradient(0deg, #FFFFFF, #E9E9E9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
-.home_subtitulo span{
-font-size: 32px;
-position: absolute;
-bottom: -10px;}
+.home_subtitulo span {
+    font-size: 32px;
+    position: absolute;
+    bottom: 10px;
+}
 
-.home_subtitulo hr{
+.home_subtitulo hr {
     max-width: 380px;
     width: 100%;
     background-color: #C5A028;
     margin-top: 5px;
     border: none;
-    height:2px
+    height: 2px
 }
+
+.img_categoria1 {
+    background-image: url(../img/Bolos\ de\ festa.png );
+    /* width: 70%; */
+    max-width: 770px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px 20px;
+}
+
+.container_categorias {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.container_categorias a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.img_categoria1_span {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+
+}
+
+.img_categoria1 h3 {
+    font-size: 32px;
+}
+
+
+.home_produtos h3 {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+}
+
+.col_categorias{
+    
+}
+
+
+.img_categoria2 {
+    background-image: url(../img/Bolos\ caseiros.png);
+}
+
+.img_categoria3 {
+    background-image: url(../img/Torta\ francesa.png);
+
+}
+
+.img_categoria2 .img_categoria3 {
+    /* width: 25%; */
+    width: 325px;
+    height: 284px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 10px;
+    font-size: 24px;
+}
+
 
 
 /* PascalCase> camelCase>snake_case >kebab-case */
