@@ -23,8 +23,8 @@ h1{
 
 .home_container{ 
     /* background-color: aqua; */
-    max-width:1200px ;  /* largura maxima 1200px  */
-    width: 95%; /* largura 95% */
+    max-width:1200px ;  largura maxima 1200px 
+    width: 95% ;
     margin: 0 auto ;
 }
 
